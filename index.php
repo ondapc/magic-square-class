@@ -57,8 +57,9 @@ ksort($count_occurrence);
 </form>
 <h3>Magic Square <?php echo $grid.'<b>x</b>'.$grid; ?></h3>
 <?php echo $table; ?>
-<h3>Heatmap and Permutations</h3>
+<h3>Heatmap</h3>
 <?php echo table_grid_heatmap_print($count_occurrence, $grid); ?>
+<h3>Permutations</h3>
 <?php echo join("\n", $html_table);?>
 <div style="clear:both;"></div>
 </body>
